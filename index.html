@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>The HTML5 Herald</title>
+  <link href="./style.css" rel="stylesheet" />
+  <script src="./main.js"></script>
+</head>
+
+<body>
+  <section>
+    <h1>KeyboradEvent のキー情報の確認</h1>
+    <h2>情報を確認したいキーを押してください。</h2>
+    <hr>
+    <h3>あなたが押したキー</h3>
+    <table id="table_main">
+      <thead>
+        <th>key</th>
+        <th>keyCode</th>
+        <th>code</th>
+        <th>altKey</th>
+        <th>ctrlKey</th>
+        <th>shiftKey</th>
+      </thead>
+      <tbody>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tbody>
+    </table>
+    <div id="button_area">
+      <button onclick="copy(false)">key をコピーする</button>
+      <button onclick="copy(true)">ダブルクォート（"）付きで key をコピーする</button><br>
+      <p id="result"></p>
+    </div>
+    <hr>
+    <h3>あなたが押したキーの履歴</h3>
+    <table id="table_sub">
+      <thead>
+        <th>key</th>
+        <th>keyCode</th>
+        <th>code</th>
+        <th>altKey</th>
+        <th>ctrlKey</th>
+        <th>shiftKey</th>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+  </section>
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+body {
+  color: #444;
+}
+
+section {
+  margin: 0 auto;
+  width: max-content;
+}
+
+textarea {
+  width: 100%;
+}
+
+hr {
+  margin: 3rem 0;
+  height: 0px;
+  border-bottom: 2px solid #eee;
+  border-top: 1px solid #ccc;
+}
+
+table {
+  border-collapse: collapse;
+  border: solid 2px #444;
+}
+
+th,
+td {
+  border: solid 1px #444;
+  padding: 1em;
+  width: 6em;
+  text-align: center;
+}
+
+th {
+  background: #444;
+  color: white;
+  border: 1px solid #777;
+}
+
+td span {
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid #c5bd00;
+  padding: 3px 6px;
+  white-space: pre;
+}
+
+#result span {
+  white-space: pre;
+  border: 1px solid #bbb;
+}
+
+th:first-child,
+td:first-child {
+  width: 7rem;
+}
+
+td:first-child {
+  background: yellow;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+#button_area {
+  margin: 2rem 0 1rem;
+}
+
+button {
+  font-size: 1rem;
+  margin-right: 2rem;
+}
